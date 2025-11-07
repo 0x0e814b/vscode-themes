@@ -2,7 +2,7 @@
   "name": "mintstream-themes",
   "displayName": "Mintstream's Theme Package",
   "description": "개인 취향을 반영한 VSCODE 컬러셋 패키지",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publisher": "mintstream",
   "engines": {
     "vscode": "^1.80.0"
