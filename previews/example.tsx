@@ -17,7 +17,7 @@ function MyComponent({ theme }: { theme: string }) {
     cache: "no-cache",
   };
 
-  const fetchData = async (url: string) => {ㄷ
+  const fetchData = async (url: string) => {
     if (!url || !IS_PRODUCTION) {
       return;
     }
