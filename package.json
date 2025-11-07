@@ -1,0 +1,41 @@
+{
+  "name": "mintstream-themes",
+  "displayName": "Mintstream's Theme Package",
+  "description": "개인 취향을 반영한 VSCODE 컬러셋 패키지",
+  "version": "1.0.0",
+  "publisher": "mintstream",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x0e814b/vscode-themes.git"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mintstream: Tactical Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tactical-green.json"
+      },
+      {
+        "label": "Mintstream: Foundry Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/foundry-blue.json"
+      },
+      {
+        "label": "Mintstream: Operation Gold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/operation-gold.json"
+      },
+      {
+        "label": "Mintstream: Aero",
+        "uiTheme": "vs-dark",
+        "path": "./themes/aero.json"
+      }
+    ]
+  }
+}
