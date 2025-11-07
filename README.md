@@ -1,7 +1,6 @@
 # Mintstream's Theme Package
 
 [![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/mintstream.mintstream-themes?style=flat-square&label=Marketplace&color=3FD98D)](https://marketplace.visualstudio.com/items?itemName=mintstream.mintstream-themes)
-[![VS Code Version](https://img.shields.io/visual-studio-marketplace/engines/vscode?style=flat-square&color=7FA8E8)](https://code.visualstudio.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 여러 작업 환경에서의 개발 환경 유지를 위해 만든 테마 패키지.
