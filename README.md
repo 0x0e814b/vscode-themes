@@ -22,7 +22,7 @@
 
 ### 4. Aero
 
-![aero](./previews/aero.png)¡
+![aero](./previews/aero.png)
 
 ---
 
