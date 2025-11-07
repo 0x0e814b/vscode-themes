@@ -28,7 +28,7 @@
     "editor.selectionHighlightBackground": "#33A6FF20",
     "editor.lineHighlightBackground": "#1A283620",
     "editor.lineHighlightBorder": "#33A6FF25",
-    "editorLineNumber.foreground": "#3A4856",
+    "editorLineNumber.foreground": "#5A5A5A",
     "editorLineNumber.activeForeground": "#6C8A9E",
     "editor.findMatchBackground": "#FFC94080",
     "editor.findMatchHighlightBackground": "#FFC94040",
@@ -78,7 +78,7 @@
     "editorHoverWidget.statusBarBackground": "#0A111F",
     "input.background": "#1A2836",
     "input.border": "#33A6FF60",
-    "input.placeholderForeground": "#3A4856",
+    "input.placeholderForeground": "#4A5866",
     "inputOption.activeBackground": "#1A4A7F",
     "inputOption.activeForeground": "#33A6FF",
     "dropdown.background": "#1A2836",
@@ -160,7 +160,7 @@
     {
       "name": "Types (TS/JS)",
       "scope": ["entity.name.type", "support.type", "support.class"],
-      "settings": { "foreground": "#7FDBCA" }
+      "settings": { "foreground": "#8FEBD8" }
     },
     {
       "name": "TypeScript Type Keywords (as, satisfies)",
@@ -175,7 +175,7 @@
     {
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
-      "settings": { "foreground": "#FF4D4D", "fontStyle": "bold underline" }
+      "settings": { "foreground": "#FF5555", "fontStyle": "bold underline" }
     }
   ]
 }
