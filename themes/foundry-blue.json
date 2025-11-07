@@ -108,7 +108,7 @@
     "progressBar.background": "#33A6FF"
   },
   "tokenColors": [
-    {
+   {
       "name": "Structure (Keywords, Operators, this/super)",
       "scope": [
         "keyword.control", "storage.type", "storage.modifier", "keyword.operator",
@@ -118,7 +118,7 @@
     },
     {
       "name": "Action (Functions)",
-      "scope": ["entity.name.function", "support.function"],
+      "scope": ["entity.name.function"],
       "settings": { "foreground": "#33A6FF", "fontStyle": "italic bold" }
     },
     {

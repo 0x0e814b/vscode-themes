@@ -118,7 +118,7 @@
     },
     {
       "name": "Action (Functions)",
-      "scope": ["entity.name.function", "support.function"],
+      "scope": ["entity.name.function"],
       "settings": { "foreground": "#00E5E5", "fontStyle": "italic bold" }
     },
     {
