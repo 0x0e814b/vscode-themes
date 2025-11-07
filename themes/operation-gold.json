@@ -111,33 +111,24 @@
     {
       "name": "Structure (Keywords, Operators, this/super)",
       "scope": [
-        "keyword.control",
-        "storage.type",
-        "storage.modifier",
-        "keyword.operator",
-        "variable.language.this",
-        "variable.language.super"
+        "keyword.control", "storage.type", "storage.modifier", "keyword.operator",
+        "variable.language.this", "variable.language.super"
       ],
-      "settings": { "foreground": "#A0A0A0", "fontStyle": "italic" }
+      "settings": { "foreground": "#A0A0A0" }
     },
     {
-      "name": "Action (Functions, Components)",
-      "scope": [
-        "entity.name.function",
-        "support.function",
-        "meta.function-call",
-        "entity.name.class",
-        "support.class.component",
-        "variable.other.constant.object"
-      ],
+      "name": "Action (Functions)",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#FFD700", "fontStyle": "italic bold" }
+    },
+    {
+      "name": "Action (Components)",
+      "scope": ["entity.name.class", "support.class.component"],
       "settings": { "foreground": "#FFD700", "fontStyle": "bold" }
     },
     {
       "name": "Data (Numbers, Constants)",
-      "scope": [
-        "constant.numeric",
-        "constant.language"
-      ],
+      "scope": ["constant.numeric", "constant.language"],
       "settings": { "foreground": "#E39B41" }
     },
     {
@@ -147,20 +138,13 @@
     },
     {
       "name": "Variables & Parameters",
-      "scope": ["variable.other.readwrite", "variable"],
+      "scope": ["variable.other.readwrite", "variable", "variable.parameter"],
       "settings": { "foreground": "#EAEAEA" }
-    },
-    {
-      "name": "Parameters (Italic)",
-      "scope": ["variable.parameter"],
-      "settings": { "foreground": "#EAEAEA", "fontStyle": "italic" }
     },
     {
       "name": "Muted (Tags, Object Keys *Definition*)",
       "scope": [
-        "entity.name.tag",
-        "meta.object-literal.key",
-        "string.unquoted.label.js",
+        "entity.name.tag", "meta.object-literal.key", "string.unquoted.label.js",
         "variable.other.object.key.js"
       ],
       "settings": { "foreground": "#6C7A90" }
@@ -168,8 +152,7 @@
     {
       "name": "Object Property Access",
       "scope": [
-        "variable.object.property",
-        "support.variable.property",
+        "variable.object.property", "support.variable.property",
         "variable.other.object.property"
       ],
       "settings": { "foreground": "#EAEAEA" }
@@ -182,7 +165,7 @@
     {
       "name": "TypeScript Type Keywords (as, satisfies)",
       "scope": ["keyword.operator.type", "storage.modifier.satisfies"],
-      "settings": { "foreground": "#A0A0A0", "fontStyle": "italic" }
+      "settings": { "foreground": "#A0A0A0" }
     },
     {
       "name": "Comments",

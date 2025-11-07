@@ -2,7 +2,7 @@
   "name": "mintstream-themes",
   "displayName": "Mintstream's Theme Package",
   "description": "개인 취향을 반영한 VSCODE 컬러셋 패키지",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "mintstream",
   "engines": {
     "vscode": "^1.80.0"
@@ -22,19 +22,9 @@
 				"path": "./themes/tactical-green.json"
 			},
 			{
-				"label": "Mintstream: Tactical Green (Non-Italic)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/non-italic/tactical-green.json"
-			},
-			{
 				"label": "Mintstream: Foundry Blue",
 				"uiTheme": "vs-dark",
 				"path": "./themes/foundry-blue.json"
-			},
-			{
-				"label": "Mintstream: Foundry Blue (Non-Italic)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/non-italic/foundry-blue.json"
 			},
 			{
 				"label": "Mintstream: Operation Gold",
@@ -42,19 +32,14 @@
 				"path": "./themes/operation-gold.json"
 			},
 			{
-				"label": "Mintstream: Operation Gold (Non-Italic)",
-				"uiTheme": "vs-dark",
-				"path": "./themes/non-italic/operation-gold.json"
-			},
-			{
 				"label": "Mintstream: Aero",
 				"uiTheme": "vs-dark",
 				"path": "./themes/aero.json"
 			},
 			{
-				"label": "Mintstream: Aero (Non-Italic)",
+				"label": "Mintstream: Green Camo",
 				"uiTheme": "vs-dark",
-				"path": "./themes/non-italic/aero.json"
+				"path": "./themes/green-camo.json"
 			}
     ]
   }
